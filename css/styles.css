@@ -41,16 +41,36 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+.main-contacts{
+color: #2e2f42;
+}
+.menu-item:hover {
+    color: #404bbf;
+}
+.menu-item:focus {
+    color: #404bbf;
+}
 
-.main-menu:hover {
-    color: #404bbf;
+.name-quality {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.main-menu:focus {
-    color: #404bbf;
+.description-quality {
+    color:  #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
-.main-item {
-background-color: #2e2f42;
-}
+
+
+
+
+
+
 .main-title {
     color: #ffffff;
     text-align: center;
@@ -84,23 +104,7 @@ letter-spacing: 0.64px;
 .nav_link:focus {
     background-color: #404BBF;
 }
-.name-quality {
-    color:  #2E2F42;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.description-quality {
-    color:  #434455;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
 
-}
 
 
 
@@ -117,7 +121,9 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
 
 }
-
+.professionals-item {
+    background-color: #F4F4FD;
+}
 .professional-name {
     color:  #2E2F42;
     text-align: center;
