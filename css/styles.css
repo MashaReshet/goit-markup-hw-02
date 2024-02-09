@@ -41,7 +41,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-.main-item {
+.menu-item {
 color: #2e2f42;
 }
 .menu-item:hover {
@@ -51,26 +51,9 @@ color: #2e2f42;
     color: #404bbf;
 }
 
-
-
-.name-quality {
-    color:  #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.main-item {
+    background-color: #2e2f42;   
 }
-.description-quality {
-    color:  #434455;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
-
-
-
-
-
 
 .main-title {
     color: #ffffff;
@@ -112,10 +95,20 @@ letter-spacing: 0.64px;
 .nav_link:focus {
     background-color: #404BBF;
 }
-
-
-
-
+.advantages {
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2E2F42;
+}
+.description-quality {
+    color:  #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 .our-team-item {
     background-color: #FFFFFF ;
     color:  #2E2F42;
