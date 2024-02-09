@@ -18,6 +18,7 @@ body {
     line-height: 1.17px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    
 }  
 .logo {
     color: #4d5ae5;
@@ -28,7 +29,7 @@ body {
     line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;  
-   
+    text-decoration: inherit;
 }
 .my-info {
     font-style: normal;
@@ -40,7 +41,11 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em
+    
 }
+ul { 
+    list-style: none;
+ }
 .menu-item {
 color: #2e2f42;
 }
@@ -69,6 +74,11 @@ color: #2e2f42;
 }
 .main-contact {
     color: #434455 ;
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .main-contact:hover {
     color: #404bbf;
