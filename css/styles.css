@@ -41,7 +41,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-.main-contacts{
+.main-item {
 color: #2e2f42;
 }
 .menu-item:hover {
@@ -50,6 +50,8 @@ color: #2e2f42;
 .menu-item:focus {
     color: #404bbf;
 }
+
+
 
 .name-quality {
     color:  #2E2F42;
@@ -63,7 +65,6 @@ color: #2e2f42;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 }
 
 
@@ -83,8 +84,15 @@ letter-spacing: 0.02em;
    
 
 }
-
-
+.main-contact {
+    color: #434455 ;
+}
+.main-contact:hover {
+    color: #404bbf;
+}
+.main-contact:focus {
+    color: #404bbf;
+}
 button {
     cursor: pointer;
 background:  #4D5AE5;
@@ -108,14 +116,11 @@ letter-spacing: 0.64px;
 
 
 
-.Our-Team-item {
+.our-team-item {
     background-color: #FFFFFF ;
     color:  #2E2F42;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -157,27 +162,21 @@ letter-spacing: 0.02em;
     color:  #2E2F42;
     text-align: center;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;  
 }
 
- .Banking {
+ .banking {
     color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 20px;  
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;  
  }
 .app-item {
     color:  #434455;
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
